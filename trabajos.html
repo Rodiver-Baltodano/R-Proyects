@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito+Sans:ital,opsz,wght@1,6..12,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="myScript.js"></script>
+    <title>Publish</title>
+    <link rel="shortcut icon"href="usuario.png">
+    <header>
+        <h2 id="ini">Inicio</h2>
+        <a class="sin_efectos" href="callto:64861301"><strong id="cont">Contactenos</strong></a>
+        </div>
+        <nav style="display: inline; font-size: 1.5rem;">
+            <strong id="visi1" onclick="visitenos1()">Visistenos en</strong>
+            <strong  style=" display: none;" id="visi2" onclick="visitenos2()">Visistenos en</strong>
+             <ul id="lista_contacto">
+                <ul>
+                    <br>
+                    <li><a class="sin_efectos" href="https://api.whatsapp.com/send/?phone=50664861301"><button  class="botones casillas_de_navegacion dis">Whatssap</button></a></li>
+                    <li><a class="sin_efectos" href="https://www.facebook.com/snr.bz.9"><button  class="botones casillas_de_navegacion dis">Facebook</button></a></li>
+                    <li><a class="sin_efectos" href="https://www.instagram.com/kendal_andresc/"><button  class="botones casillas_de_navegacion dis">Instagram</button></a></li>
+           </nav>
+    </header>
+</head>
+<body>
+    <div style="margin-top: 5.5rem;padding-top: 2rem;padding-right: 3%;height: 100%;padding-bottom: 0;background: linear-gradient(40deg, rgb(10, 85, 155), rgb(53, 190, 224), rgb(31, 61, 196));position: fixed;border-radius: 0.4rem;" id="nose">
+        <ul  id="navegacion">
+            <li>
+              <form>
+                <label >Busqueda</label>
+                <input id="search" type="text" placeholder="Qué tipo de trabajo buscas?">
+              </form>
+            </li>
+            <br>
+            <li><a class="sin_efectos" href="trabajos.html"><button  class="botones casillas_de_navegacion"> Inicio</button></a></li>
+            <li><a class="sin_efectos" href="https://www.mtss.go.cr/elministerio/marco-legal/documentos/Codigo_Trabajo_RPL.pdf"><button  class="botones casillas_de_navegacion">Código de Trabajo</button></a></li>
+            <li><a class="sin_efectos" href="Registrarse.html"><button  class="botones casillas_de_navegacion">Registrarse</button></a></li>
+            <li><a class="sin_efectos" href=""><button  class="botones casillas_de_navegacion">Información de Contacto</button></a></li>
+            <li><a class="sin_efectos" href=""><button  class="botones casillas_de_navegacion">Solicitud de Trabajo</button></a></li>
+            <li>
+                <button id="boton1"  class="botones casillas_de_navegacion" onclick="lista_trabajo1()">Trabajos por Secciones</button>
+                <button style="display: none; background-color: black;" id="boton2" class="botones casillas_de_navegacion" onclick="lista_trabajo2()">Trabajos por Secciones</button></li>
+            <li>
+                <nav style="display: none;" id="secciones-trabajo">
+                    <ul>
+                        <li><a class="sin_efectos" href="desarrollador-web"><button  class="botones  tamaño">Desarrollador Web</button></a></li>
+                        <li><a class="sin_efectos" href="web-master"><button  class="botones tamaño">Web Master</button></a></li>
+                        <li><a class="sin_efectos" href="ingeniero-sistemas"><button  class="botones  tamaño">Ingeniero en Sistemas</button></a></li>
+                        <li><a class="sin_efectos" href="ingeniero-software"><button  class="botones  tamaño">Ingeniero en Software</button></a></li>
+                        <li><a class="sin_efectos" href="ingeniero-redes"><button  class="botones tamaño">Ingeniero en Redes</button></a></li>
+                    </ul>
+                </nav>
+            </li>
+            <li><a class="sin_efectos" href=""><button  class="botones casillas_de_navegacion">Colaborar</button></a></li>
+            <li><a class="sin_efectos" href=""><button  class="botones casillas_de_navegacion"> Informas Empleo</button></a></li>
+        </ul>
+    </div>
+    <section class="fondo_blanc">
+        <section>
+            <div style=" float: right; padding: 0;margin-right:97.5rem ;"><img id="forma1" src="imagenes/estrella_izquierda.png" onclick="barraNavegacionDes()"></div>
+            <div>
+                <img id="forma2" src="imagenes/estrella_derecha.png" onclick="barraNavegacionApa() ">
+            </div>
+            <br><br><br><br><br>
+            <section class="carta" id="fondo1" onclick="oc1()">
+                <h1 class="text titulo">Titulo</h1>
+                <img src="imagenes/how-to-become-a-web-developer-it.jpeg" alt="" style="padding-top: 5rem" class="imagen">
+                <p class="text">texto</p>  
+            </section>
+            <br><br>
+            <section class="carta" id="fondo_cara1" onclick="ms1()" >
+            <h2 class="text">Requicitos:</h2>
+            <div >
+                <ul  class="alin">
+                    <li>Requicitos</li>
+                    <li>Requicitos</li>
+                    <li>Requicitos</li>
+                </ul>
+            </div>
+            <p class="text">texto</p>
+            <h2 class="text">Beneficios:</h2>
+            <div class="alin">
+                <ul>
+                    <li>opcion</li>
+                    <li>opcion</li>
+                    <li>opcion</li>
+                    <li>opcion</li>
+                    <li>opcion</li>
+                </ul>
+            </div>
+            </section>
+            <br><br><br>
+            <section class="carta" id="fondo2" onclick="oc2()">                                                              
+                <h1 class="titulo">Titulo</h1>                                        
+                <img src="imagenes/imagengente.png" alt="Nya!! :3" style="padding-top: 2rem" class="imagen">                 
+                <p class="text">texto</p>                                            
+            </section>                                                                                                        
+            <section class="carta" id="fondo_cara2" onclick="ms2()">                                                         
+                <h2 class="text">Requicitos:</h2>                                                                     
+                <div class="alin">                                                                                            
+                    <ul>                                                                                                      
+                        <li>Requicitos</li>  
+                        <li>Requicitos</li>
+                        <li>Requicitos</li>
+                        <li>Requicitos</li>                                                 
+                    </ul>                                                                                                    
+                </div>                                                                                                       
+                <p class="text">texto</p>                                          
+                <h2 class="text">Beneficios:</h2>                                                                            
+                <div  class="alin">                                                                                       
+                    <ul>                                                                                                  
+                        <li>opcion</li>           
+                        <li>opcion</li>      
+                        <li>opcion</li>      
+                        <li>opcion</li>      
+                        <li>opcion</li>                                    
+                    </ul>                                                                                           
+                </div>                                                                                                    
+                </section>     
+           </section>
+                <br>                      
+    </section>                                                                               
+</body>
+</html>

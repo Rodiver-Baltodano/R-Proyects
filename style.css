@@ -1,0 +1,198 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    background-image: url(imagenes/foto5.jpg);
+    background-size: cover;
+    background-color: rgb(38, 25, 158, 0.7);
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    padding: 0px;
+    color: white;
+    background-repeat:no-repeat;
+}
+.efecto_sombra:hover{
+    box-shadow: 0 0.4rem 0.7rem rgb(0, 0, 0, 0.2);
+}
+#visi1{
+    float: right;
+    margin-right: 2rem;
+}
+#visi2{
+    float: right;
+    margin-right: 2rem;
+}
+.tamaño{
+    height: 2.7rem;
+    border-radius: 0.4rem;
+    margin-top: 0.5rem;
+    padding-top: 0.2rem;
+    bottom: 0.2rem;
+    background:linear-gradient(270deg, rgb(88, 177, 78), rgb(40, 65, 38), rgba(86, 119, 83), rgb(42, 131, 34), rgba(46, 143, 37, 0.979), rgba(53, 207, 39, 0.973));
+    transition: width 0.5s;
+}
+.tamaño:hover{
+    width:19.2rem;
+}
+#lista_contacto{
+    display: none;
+    list-style: none;
+    height: 17rem;
+    width:5rem;
+    font-size: 19px;
+    position: fixed;
+    padding-left: 0;
+    margin-top: 0rem;
+    margin-left: 83.6rem;
+}
+#ini{
+    display: inline;
+    text-align: left;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+}
+#cont{
+    font-size: 1.5rem;
+    text-align: center;
+    float: right;
+    display: inline;
+}
+#search{
+    width: 200px;
+    height: 30px;
+    border-radius: .5rem;
+    border-style: solid;
+}
+.sin_efectos{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+.titulo{
+    clear: both;
+    text-align: center;
+    font-size: 2rem;
+}
+p{
+    font-size: 1.2rem;
+    padding-top: 2rem;
+}
+.text{
+    text-align: center;
+}
+header{
+    width: 91%;
+    background-color: rgb(24, 167, 167);
+    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(92, 91, 91),rgb(0, 0, 0), rgb(77, 77, 77), rgb(70,70,70),rgba(119, 119, 119, 0.705), rgb(90, 90, 90),rgb(0, 0, 0));
+    color:rgb(255, 255, 255);
+    padding: 1.5rem;
+    padding-right: 8.2rem;
+    margin: 0 auto;
+    border-radius: 1.1rem;
+    border-style: outset;
+    position:fixed;
+}
+.carta{
+    border: cornsilk solid 1rem;
+    border-radius: 1rem;
+    clear: both;
+    padding-top: 4rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 40rem;
+    height: 42rem;
+    border: 0.0.5rem outset wheat;
+    border-radius: 0.3rem;
+}
+.carta:hover{
+     box-shadow: 0 0.8rem 1rem rgb(0, 0, 0, 0.4);
+}
+#fondo1{
+    background-image: url(imagenes/foto.png);
+}
+#fondo_cara1{
+    display: none;
+    background-image: url(imagenes/foto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fondo2{
+    background-image: url(imagenes/foto2.png);
+}
+#fondo_cara2{
+    display: none;
+    background-image: url(imagenes/foto2.png);
+}
+#titulo{
+    padding-top: 15rem;
+    font-size: 5rem;
+}
+.imagen{
+    padding-left: 5rem;
+    width: 30rem;
+    height: 21rem;
+}
+h2{
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+}
+.alin{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1.25rem;
+}
+ ul{
+    list-style: none;
+    padding-left: 1rem;
+    border-radius: 1rem;
+}
+#navegacion{
+    padding-bottom: 12rem;
+
+}
+.casillas_de_navegacion:hover{
+    background-color: black;
+}
+.casillas_de_navegacion{
+    background:linear-gradient(135deg, rgb(34, 21, 109), rgb(37, 35, 160),rgb(17, 99, 221)) ;
+    padding: 0.5rem .25rem;
+    margin-top: .3rem;
+    border-radius: 0.2rem;
+}
+#forma1{
+    clear: both;
+    width: 110px;
+    height: 70px;
+    margin-top: 25rem;
+    padding-top: 3rem;
+    padding-bottom: 0;
+    border-radius: 0.6rem;
+    position:fixed;
+}
+#forma2{
+    display: none;
+    width: 90px;
+    height: 70px;
+    margin-top: 24.5rem;
+    padding-top: 3rem;
+    padding-bottom: 0;
+    position: fixed;
+    border-radius: 0.6rem;
+}
+.fondo_blanco{
+    margin: 0 auto;
+    width: 37%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius:1rem ;
+}
+.botones{
+    font-size: 1.25rem;color: aliceblue; width: 18.8rem;;
+}
+.dis{
+    width: 13rem;
+}
+.botones:hover{
+    background-color: black;
+}
+
